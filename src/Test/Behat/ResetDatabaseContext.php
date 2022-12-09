@@ -24,7 +24,7 @@ final class ResetDatabaseContext implements Context
     }
 
     /**
-     * @BeforeScenario
+     * @AfterScenario
      */
     public function resetSchema(): void
     {
